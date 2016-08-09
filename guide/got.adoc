@@ -177,7 +177,15 @@ RETURN c.name AS character, sum(r.weight) AS weightedDegree ORDER BY weightedDeg
 
 == Apoc Procedures
 
-image::https://dl.dropboxusercontent.com/u/67572426/graph_of_thrones/apoc_proc.png[]
+image::https://dl.dropboxusercontent.com/u/67572426/graph_of_thrones/apoc_proc.png[float=right]
+
+=== User Defined Procedures
+
+User defined procedures are written in Java, deployed to the database and callable from Cypher.
+
+=== https://github.com/neo4j-contrib/neo4j-apoc-procedures[Apoc library]
+
+Library of procedures for many common Neo4j tasks, including graph algorithsm, data import, refactoring, indexing, system monitoring, ...
 
 
 == Betweenness Centrality
@@ -227,4 +235,4 @@ Continue with this https://github.com/johnymontana/graph-of-thrones/blob/master/
 
 image::http://www.lyonwj.com/public/img/graph-of-thrones.png[]
 
-.Generated with https://github.com/johnymontana/neovis.js[neovis.js]
+Generated with https://github.com/johnymontana/neovis.js[neovis.js]
